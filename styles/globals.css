@@ -736,6 +736,10 @@ p {
     letter-spacing: -0.02em;
     color: #ffffff;
   }
+  .countupapproach1 h1,
+  .countupapproach1 p {
+    margin-top: -5px !important;
+  }
   .countupapproach2 h1 {
     font-family: "ITC Avant Garde Gothic Std";
     font-style: normal;
