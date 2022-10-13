@@ -1,9 +1,14 @@
+@font-face {
+  font-family: "ITC Avant Garde Gothic Std";
+  src: url("../fonts/ITC Avant Garde Gothic Std Book.otf");
+  font-style: normal;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "ITC Avant Garde Gothic Std";
 }
 
 a {
@@ -14,7 +19,18 @@ a {
 * {
   box-sizing: border-box;
 }
-
+h1 {
+  margin: 0px !important;
+}
+h2 {
+  margin: 0px !important;
+}
+h6 {
+  margin: 0px !important;
+}
+p {
+  margin: 5px !important;
+}
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
@@ -22,5 +38,1159 @@ a {
   body {
     color: white;
     background: black;
+  }
+}
+.header-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: -0.03em;
+  color: #222222;
+  margin: 0px;
+}
+.Get-Image {
+  margin-top: -8px;
+}
+.home-hero-section {
+  background-image: url("../Component/HomeComponent/Image/Group\ 297.png");
+}
+.herosection-heading {
+  font-family: "ITC Avant Garde Gothic Std";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 85px;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  margin: 0px;
+  width: 70%;
+}
+.under-expert-section-left h1 {
+  font-family: "ITC Avant Garde Gothic Std";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 62px;
+  line-height: 75px;
+  letter-spacing: -0.02em;
+  color: #222222;
+  padding-top: 21px;
+}
+.under-expert-section-left p {
+  font-family: "ITC Avant Garde Gothic Std";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: -0.02em;
+  color: #ec2232;
+}
+.under-expert-section-right p {
+  font-family: "ITC Avant Garde Gothic Std";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 29px;
+  color: #000000;
+  width: 72%;
+  padding-left: 40px;
+}
+.home-hero-section {
+  background-size: contain;
+  height: 770px;
+}
+
+.under-expert-section-left {
+  padding-top: 20px;
+  padding-left: 290px;
+}
+
+.under-expert-section-right {
+  padding-top: 200px;
+  padding-bottom: 136px;
+}
+.countup {
+  display: flex;
+  text-align: center;
+  margin: auto;
+  justify-content: center;
+  padding-left: 30px;
+  padding-bottom: 100px;
+}
+
+.countup1 {
+  width: 355px;
+}
+.countup2 {
+  width: 355px;
+}
+.countup3 {
+  width: 355px;
+}
+.countup1 {
+  border-right: 1px solid #c4c4c4;
+}
+.countup2 {
+  border-right: 1px solid #c4c4c4;
+}
+.countup1 h1 {
+  font-family: "ITC Avant Garde Gothic Std";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 80px;
+  line-height: 85px;
+  letter-spacing: -0.02em;
+  color: #222222;
+}
+.countup1 p {
+  font-family: "ITC Avant Garde Gothic Std";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 35px;
+  letter-spacing: -0.02em;
+  color: #222222;
+  margin-top: 11px !important;
+}
+.countup2 h1 {
+  font-family: "ITC Avant Garde Gothic Std";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 80px;
+  line-height: 85px;
+  letter-spacing: -0.02em;
+  color: #222222;
+}
+.countup2 p {
+  font-family: "ITC Avant Garde Gothic Std";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 35px;
+  letter-spacing: -0.02em;
+  color: #222222;
+  margin-top: 11px !important;
+}
+.countup3 h1 {
+  font-family: "ITC Avant Garde Gothic Std";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 80px;
+  line-height: 85px;
+  letter-spacing: -0.02em;
+  color: #222222;
+}
+.countup3 p {
+  font-family: "ITC Avant Garde Gothic Std";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 35px;
+  letter-spacing: -0.02em;
+  color: #222222;
+  margin-top: 11px !important;
+}
+.plus {
+  padding: 5px 5px 10px 5px !important;
+  width: 47px !important;
+  height: 55px !important;
+}
+
+.approach-section {
+  padding-top: 100px;
+}
+
+.under-approach-section-left h1 {
+  font-family: "ITC Avant Garde Gothic Std";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 62px;
+  line-height: 75px;
+  letter-spacing: -0.02em;
+  color: #222222;
+  padding-top: 21px;
+  width: 65%;
+}
+.under-approach-section-left p {
+  font-family: "ITC Avant Garde Gothic Std";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: -0.02em;
+  color: #ec2232;
+}
+.approach-section {
+  padding-left: 290px;
+  background-image: url("../Component/HomeComponent/Image/Mask\ group.png");
+  background-size: contain;
+  min-height: 894px;
+  background-repeat: no-repeat;
+}
+
+.slider-card {
+  width: 402px;
+  height: 593px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 70.05%, #000000 110.99%);
+  padding: 418px 50px 48px 50px;
+}
+
+.approach-slider {
+  margin-top: 104px;
+  padding-bottom: 181px;
+}
+
+.inside-card h1 {
+  font-family: "ITC Avant Garde Gothic Std";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 43px;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  padding-bottom: 10px;
+}
+
+.inside-card p {
+  font-family: "ITC Avant Garde Gothic Std";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 25px;
+  color: #fefefe;
+}
+
+.firstapproach {
+  background-image: url("../Component/HomeComponent/Image/Mask\ group\ \(1\).png");
+  height: 1050px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.under-expert-section-left h6 {
+  font-family: "ITC Avant Garde Gothic Std";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 29px;
+  color: #ffffff;
+}
+
+.countupapproach1 h1 {
+  font-family: "ITC Avant Garde Gothic Std";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 42.1214px;
+  line-height: 51px;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  width: auto !important;
+}
+.countupapproach1 p {
+  font-family: "ITC Avant Garde Gothic Std";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 23.1975px;
+  line-height: 27px;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+.countupapproach1 span {
+  font-family: "ITC Avant Garde Gothic Std";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 42.1214px;
+  line-height: 51px;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+.countupapproach2 h1 {
+  font-family: "ITC Avant Garde Gothic Std";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 42.1214px;
+  line-height: 51px;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  width: auto !important;
+}
+
+.countupapproach2 p {
+  font-family: "ITC Avant Garde Gothic Std";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 23.1975px;
+  line-height: 27px;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+.countupapproach2 span {
+  font-family: "ITC Avant Garde Gothic Std";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 42.1214px;
+  line-height: 51px;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+
+.countupapproach3 h1 {
+  font-family: "ITC Avant Garde Gothic Std";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 42.1214px;
+  line-height: 51px;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  width: auto !important;
+}
+
+.countupapproach3 p {
+  font-family: "ITC Avant Garde Gothic Std";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 23.1975px;
+  line-height: 27px;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+.countupapproach3 span {
+  font-family: "ITC Avant Garde Gothic Std";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 42.1214px;
+  line-height: 51px;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+
+.under-firstapproach-section-right {
+  padding-right: 290px;
+}
+.firstapproachimg {
+  margin-top: 431px !important;
+}
+.formtouch {
+  background: #ffffff;
+  box-shadow: 0px -2px 50px rgba(0, 0, 0, 0.08);
+  border-radius: 20px;
+}
+
+.formtouch .user-box {
+  position: relative;
+}
+
+.formtouch .user-box input {
+  width: 100%;
+  padding: 10px 0 20px 0;
+  font-size: 16px;
+  color: #192437;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 2px solid #cdcdcd;
+  outline: none;
+  background: transparent;
+  border-radius: 7.75px;
+}
+.formtouch .user-box textarea {
+  width: 100%;
+  height: 77px;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #192437;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 2px solid #cdcdcd;
+  outline: none;
+  background: transparent;
+  border-radius: 7.75px;
+}
+.formtouch .user-box label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 17.4433px;
+  line-height: 20px;
+  letter-spacing: -0.04em;
+
+  color: #192437;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.formtouch .user-box input:focus ~ label,
+.formtouch .user-box input:valid ~ label {
+  top: -20px;
+  left: 0;
+  color: #192437;
+  font-size: 12px;
+}
+.formtouch a {
+  background-color: #ec2232 !important;
+  border-radius: 40.2445px;
+  padding: 14px 65.8px;
+  font-family: "ITC Avant Garde Gothic Std";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+.mapgetintouch h1 {
+  font-family: "ITC Avant Garde Gothic Std";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 70px;
+  line-height: 85px;
+  letter-spacing: -0.02em;
+  color: #222222;
+  margin-bottom: 45px;
+}
+
+.mapgetintouch p {
+  font-family: "ITC Avant Garde Gothic Std";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 30px;
+  color: #646464;
+}
+.getintouch-section {
+  padding: 115px 298px;
+  /* background-image: url('../Component/HomeComponent/Image/image\ 15.png'); */
+  background-repeat: no-repeat;
+  background-size: contain;
+  background: url("../Component/HomeComponent/Image/image\ 15.png"),
+    linear-gradient(
+      89.86deg,
+      #ffffff 12.46%,
+      rgba(253, 253, 253, 0.875643) 35.36%,
+      rgba(238, 238, 238, 0.02) 73%
+    );
+  height: 865px;
+}
+.mapimage {
+  border-radius: 10px;
+  box-shadow: 0px 4px 54px rgba(0, 0, 0, 0.25);
+}
+.mapimagep {
+  margin-right: 80px !important;
+}
+
+.footer {
+  padding: 100px 300px;
+  background: #181818;
+  min-height: 401px;
+}
+.inside-footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.footer-1 p {
+  font-family: "ITC Avant Garde Gothic Std";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 70px;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+.footer-2 h2 {
+  font-family: "ITC Avant Garde Gothic Std";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 70px;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+
+.footer-2 ul li {
+  font-family: "ITC Avant Garde Gothic Std";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 48px;
+  color: #ffffff;
+}
+.socialicon {
+  margin: auto;
+  justify-content: end;
+  padding-top: 44px;
+}
+.footer-4 p {
+  font-family: "ITC Avant Garde Gothic Std";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 23px;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+}
+@media screen and (min-width: 1920px) {
+  .under-firstapproach-section-right {
+    padding-right: 290px;
+  }
+  .firstapproachimg {
+    margin-top: 431px !important;
+  }
+  .plus {
+    width: 67px;
+    height: 75px;
+    margin-top: -7px !important;
+  }
+
+  .slider-card {
+    width: 502px;
+    height: 693px;
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 70.05%,
+      #000000 110.99%
+    );
+    padding: 518px 50px 48px 50px;
+  }
+
+  .approach-slider {
+    margin-top: 104px;
+  }
+
+  .approach-section {
+    padding-left: 392px;
+    min-height: 894px;
+  }
+  .herosection-heading {
+    font-family: "ITC Avant Garde Gothic Std";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 100px;
+    line-height: 125px;
+    letter-spacing: -0.02em;
+    color: #ffffff;
+    width: 60%;
+  }
+  .home-hero-section {
+    background-size: contain;
+    height: 866px;
+  }
+
+  .under-expert-section-left h1 {
+    font-family: "ITC Avant Garde Gothic Std";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 70px;
+    line-height: 85px;
+    letter-spacing: -0.02em;
+    color: #222222;
+    width: 639px;
+    padding-top: 21px;
+  }
+
+  .under-approach-section-left h1 {
+    font-family: "ITC Avant Garde Gothic Std";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 70px;
+    line-height: 85px;
+    letter-spacing: -0.02em;
+    color: #222222;
+    width: 75%;
+    padding-top: 21px;
+  }
+
+  .under-expert-section-left {
+    padding-top: 160px;
+    padding-left: 392px;
+  }
+
+  .under-expert-section-right {
+    padding-top: 352px;
+    padding-bottom: 136px;
+  }
+  .under-expert-section-right p {
+    font-family: "ITC Avant Garde Gothic Std";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 29px;
+    color: #000000;
+    width: 438px;
+    padding-left: 0px;
+  }
+  .countup {
+    display: flex;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    padding-bottom: 201px;
+  }
+  .countup1 {
+    border-right: 1px solid #c4c4c4;
+  }
+  .countup2 {
+    border-right: 1px solid #c4c4c4;
+  }
+
+  .countup1 {
+    width: 410px;
+  }
+  .countup2 {
+    width: 410px;
+  }
+  .countup3 {
+    width: 410px;
+  }
+  .countup1 h1 {
+    font-family: "ITC Avant Garde Gothic Std";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 110px;
+    line-height: 85px;
+    letter-spacing: -0.02em;
+    color: #222222;
+  }
+  .countup1 p {
+    font-family: "ITC Avant Garde Gothic Std";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: -0.02em;
+    color: #222222;
+  }
+  .countup2 h1 {
+    font-family: "ITC Avant Garde Gothic Std";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 110px;
+    line-height: 85px;
+    letter-spacing: -0.02em;
+    color: #222222;
+  }
+  .countup2 p {
+    font-family: "ITC Avant Garde Gothic Std";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: -0.02em;
+    color: #222222;
+  }
+  .countup3 h1 {
+    font-family: "ITC Avant Garde Gothic Std";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 110px;
+    line-height: 85px;
+    letter-spacing: -0.02em;
+    color: #222222;
+  }
+  .countup3 p {
+    font-family: "ITC Avant Garde Gothic Std";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: -0.02em;
+    color: #222222;
+  }
+  .approach-section {
+    padding-top: 150px;
+  }
+  .under-expert-section-left h6 {
+    font-family: "ITC Avant Garde Gothic Std";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 29px;
+    color: #ffffff;
+  }
+  .countupapproach1 h1 {
+    font-family: "ITC Avant Garde Gothic Std";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42.1214px;
+    line-height: 51px;
+    letter-spacing: -0.02em;
+    color: #ffffff;
+    width: auto !important;
+  }
+  .countupapproach1 p {
+    font-family: "ITC Avant Garde Gothic Std";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23.1975px;
+    line-height: 27px;
+    letter-spacing: -0.02em;
+    color: #ffffff;
+  }
+  .countupapproach1 span {
+    font-family: "ITC Avant Garde Gothic Std";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 42.1214px;
+    line-height: 51px;
+    letter-spacing: -0.02em;
+    color: #ffffff;
+  }
+  .countupapproach2 h1 {
+    font-family: "ITC Avant Garde Gothic Std";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42.1214px;
+    line-height: 51px;
+    letter-spacing: -0.02em;
+    color: #ffffff;
+    width: auto !important;
+  }
+
+  .countupapproach2 p {
+    font-family: "ITC Avant Garde Gothic Std";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23.1975px;
+    line-height: 27px;
+    letter-spacing: -0.02em;
+    color: #ffffff;
+  }
+  .countupapproach2 span {
+    font-family: "ITC Avant Garde Gothic Std";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 42.1214px;
+    line-height: 51px;
+    letter-spacing: -0.02em;
+    color: #ffffff;
+  }
+
+  .countupapproach3 h1 {
+    font-family: "ITC Avant Garde Gothic Std";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42.1214px;
+    line-height: 51px;
+    letter-spacing: -0.02em;
+    color: #ffffff;
+    width: auto !important;
+  }
+
+  .countupapproach3 p {
+    font-family: "ITC Avant Garde Gothic Std";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23.1975px;
+    line-height: 27px;
+    letter-spacing: -0.02em;
+    color: #ffffff;
+  }
+  .countupapproach3 span {
+    font-family: "ITC Avant Garde Gothic Std";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 42.1214px;
+    line-height: 51px;
+    letter-spacing: -0.02em;
+    color: #ffffff;
+  }
+  .getintouch-section {
+    padding: 115px 298px;
+    /* background-image: url('../Component/HomeComponent/Image/image\ 15.png'); */
+    background-repeat: no-repeat;
+    background-size: contain;
+    background: url("../Component/HomeComponent/Image/image\ 15.png"),
+      linear-gradient(
+        89.86deg,
+        #ffffff 12.46%,
+        rgba(253, 253, 253, 0.875643) 35.36%,
+        rgba(238, 238, 238, 0.02) 73%
+      );
+    height: 865px;
+  }
+}
+@media only screen and (max-width: 1919px) and (min-width: 1477px) {
+  .home-hero-section {
+    background-size: cover;
+  }
+  .herosection-heading {
+    width: 58%;
+  }
+  .under-expert-section {
+    padding-top: 140px;
+  }
+  .slider-card {
+    width: 432px;
+    padding: 390px 40px 48px 40px;
+  }
+  .under-expert-section {
+    padding-top: 70px;
+  }
+  .firstapproachunder {
+    grid-template-columns: 1.8fr 1fr !important;
+  }
+  .approachhead {
+    width: 80%;
+  }
+  .firstapproach {
+    background-size: cover;
+    height: 886px;
+  }
+  .firstapproachimg {
+    margin-top: 285px !important;
+  }
+  .getintouch-section {
+    padding: 115px 190px 115px 298px;
+  }
+  .insidegetintouch {
+    grid-template-columns: 1.7fr 1fr;
+  }
+  .footer {
+    padding: 100px 200px 100px 300px;
+  }
+  .mapimagep {
+    margin-right: 45px !important;
+  }
+}
+@media only screen and (max-width: 1476px) and (min-width: 1199px) {
+  .under-hero-section {
+    padding-top: 80px;
+    padding-left: 72px;
+  }
+  .herosection-heading {
+    font-size: 52px;
+    line-height: 60px;
+  }
+  .herosection-heading {
+    width: 53%;
+  }
+  .home-hero-section {
+    background-size: cover;
+    height: 515px;
+  }
+  .expert-section {
+    padding-top: 100px;
+  }
+  .under-expert-section-left {
+    padding-left: 135px;
+  }
+  .under-expert-section-right p {
+    padding-left: 0px;
+  }
+  .approach-section {
+    padding-left: 135px;
+  }
+  .under-expert-section-left h1 {
+    font-family: "ITC Avant Garde Gothic Std";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 62px;
+  }
+  .under-approach-section-left h1 {
+    font-size: 50px;
+    line-height: 62px;
+  }
+  .slider-card {
+    width: 351px;
+    height: 538px;
+    padding: 311px 20px 28px 20px;
+  }
+  .firstapproach {
+    background-size: cover;
+  }
+  .firstapproachunder {
+    grid-template-columns: 1.5fr 1fr;
+  }
+  .approachhead {
+    width: 75%;
+  }
+  .firstapproachimg {
+    margin-top: 265px !important;
+  }
+  .getintouch-section {
+    padding: 115px 135px;
+  }
+  .mapgetintouch h1 {
+    font-size: 50px;
+    line-height: 62px;
+  }
+  .footer {
+    padding: 100px 135px;
+  }
+}
+@media only screen and (max-width: 1198px) and (min-width: 667px) {
+  .home-hero-section {
+    margin: 0px !important;
+    background-size: cover;
+    height: 666px;
+  }
+  .herosection-heading {
+    font-size: 48px;
+    line-height: 58px;
+  }
+  .under-hero-section {
+    padding-top: 62px;
+    padding-left: 49px;
+  }
+  .home-hero-section {
+    height: 592px;
+  }
+  .under-expert-section {
+    grid-template-columns: 1fr !important;
+  }
+  .under-expert-section-left {
+    padding-top: 100px;
+    padding-left: 40px;
+  }
+  .under-expert-section-left h1 {
+    font-size: 50px;
+    line-height: 63px;
+  }
+  .under-expert-section-right {
+    padding-top: 55px;
+    padding-bottom: 60px;
+  }
+  .approach-section {
+    padding-left: 40px;
+  }
+  .under-approach-section-left h1 {
+    font-size: 50px;
+    line-height: 63px;
+    width: 100%;
+  }
+  .firstapproach {
+    background-size: cover;
+    height: 824px;
+  }
+  .countupapproach {
+    padding-right: 50px;
+  }
+  .under-firstapproach-section-right {
+    display: none;
+  }
+  .insidegetintouch {
+    grid-template-columns: 1fr !important;
+  }
+  .getintouch-section {
+    padding: 115px 40px;
+    height: 1414px;
+  }
+  .formtouch {
+    margin-top: 50px;
+  }
+  .mapgetintouch h1 {
+    font-size: 50px;
+    line-height: 63px;
+  }
+  .footer {
+    padding: 100px 40px;
+  }
+  .inside-footer {
+    grid-template-columns: 1fr !important;
+  }
+  .footerinsidebox {
+    width: 70%;
+  }
+  .swiper-container {
+    width: 640px;
+  }
+}
+
+@media only screen and (max-width: 1198px) and (min-width: 970px) {
+  .slider-card {
+    width: 402px;
+    height: 648px;
+  }
+}
+@media only screen and (max-width: 969px) {
+  .slider-card {
+    width: 100%;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    height: 648px;
+  }
+}
+@media only screen and (max-width: 666px) {
+  .home-hero-section {
+    margin: 0px !important;
+    background-size: cover;
+    height: 666px;
+  }
+  .herosection-heading {
+    font-size: 48px;
+    line-height: 58px;
+  }
+  .under-hero-section {
+    padding-top: 62px;
+    padding-left: 20px !important;
+    height: 500px;
+  }
+  .home-hero-section {
+    height: 592px;
+  }
+  .under-expert-section {
+    grid-template-columns: 1fr !important;
+  }
+  .under-expert-section-left {
+    padding-top: 0px !important;
+    padding-left: 15px !important;
+  }
+  .under-expert-section-left h1 {
+    font-size: 32px;
+    line-height: 50px;
+  }
+  .under-expert-section-right p {
+    width: 100% !important;
+    padding-left: 15px !important;
+  }
+  .countup {
+    display: block !important;
+    padding-bottom: 0px !important;
+  }
+  .countup1 {
+    padding-bottom: 30px;
+    width: 100% !important;
+  }
+  .countup2 {
+    padding-bottom: 30px;
+    width: 100% !important;
+  }
+  .countup3 {
+    width: 100% !important;
+  }
+  .countup1 h1 {
+    font-size: 56px !important;
+    line-height: 67px !important;
+  }
+  .countup1 span {
+    height: 46px !important;
+    width: 38px !important;
+  }
+  .countup2 h1 {
+    font-size: 56px !important;
+    line-height: 67px !important;
+  }
+  .countup2 span {
+    height: 46px !important;
+    width: 38px !important;
+  }
+  .countup3 h1 {
+    font-size: 56px !important;
+    line-height: 67px !important;
+  }
+  .countup3 span {
+    height: 46px !important;
+    width: 38px !important;
+  }
+  .countup1 p {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .countup2 p {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .countup3 p {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .under-expert-section-right {
+    padding-top: 25px !important;
+    padding-bottom: 60px;
+  }
+  .approach-section {
+    padding-left: 15px !important;
+  }
+  .under-approach-section-left h1 {
+    font-size: 32px;
+    line-height: 50px;
+    width: 100%;
+  }
+  .firstapproach {
+    background-size: cover;
+    height: 824px;
+  }
+  .countupapproach {
+    padding-right: 50px;
+  }
+  .under-firstapproach-section-right {
+    display: none;
+  }
+  .insidegetintouch {
+    grid-template-columns: 1fr !important;
+  }
+  .getintouch-section {
+    padding: 115px 40px;
+    height: 1414px;
+  }
+  .formtouch {
+    margin-top: 50px;
+  }
+  .mapgetintouch h1 {
+    font-size: 50px;
+    line-height: 63px;
+  }
+  .footer {
+    padding: 100px 40px;
+  }
+  .inside-footer {
+    grid-template-columns: 1fr !important;
+  }
+  .footerinsidebox {
+    width: 70%;
+  }
+  .slider-card {
+    padding: 304px 20px 28px 20px !important;
+    height: 547px !important;
+  }
+  .countupapproach {
+    display: block !important;
+  }
+  .firstapproach {
+    background-size: cover;
+    height: 1255px !important;
+  }
+  .countupapproach {
+    padding-right: 0px !important;
+    text-align: center !important;
+  }
+  .getintouch-section {
+    padding: 115px 15px !important;
+    height: 1400px !important;
+  }
+  .mapimagep {
+    margin-right: 0px !important;
+  }
+  .maplogo {
+    display: block !important;
+  }
+  .header-text {
+    display: none;
+  }
+  .herosection-heading {
+    width: 100%;
+  }
+  .footer-1 p {
+    font-size: 25px;
+    line-height: 54px;
+  }
+  .footer-2 h2 {
+    font-size: 25px;
+    line-height: 54px;
+  }
+  .footer {
+    padding: 100px 15px;
+  }
+  .footer-2 ul li {
+    font-size: 18px;
+    line-height: 42px;
+  }
+  .countupapproach1 {
+    padding-bottom: 30px;
+  }
+  .countupapproach2 {
+    padding-bottom: 30px;
   }
 }
