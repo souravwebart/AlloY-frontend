@@ -16,7 +16,10 @@ function FirstApproach() {
           style={{ display: "grid", gridTemplateColumns: "1.3fr 1fr" }}
         >
           <div className="under-expert-section-left">
-            <p style={{ color: "#fff", paddingTop: "80px" }}>
+            <p
+              style={{ color: "#fff", paddingTop: "80px" }}
+              className="firstapproachtag"
+            >
               Customer Firsr Approach
             </p>
             <h1 className="approachhead" style={{ color: "#fff" }}>

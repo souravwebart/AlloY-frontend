@@ -1219,4 +1219,7 @@ p {
     letter-spacing: -0.03em;
     color: #ffffff;
   }
+  .firstapproachtag {
+    padding-top: 0px !important;
+  }
 }
