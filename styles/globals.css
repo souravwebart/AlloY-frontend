@@ -1197,4 +1197,26 @@ p {
   .countupapproach2 {
     padding-bottom: 30px;
   }
+  .expert-section {
+    padding-top: 100px;
+  }
+  .mapimagep {
+    width: 90%;
+  }
+  .formtouch {
+    padding: 70px 15px !important;
+  }
+  .mapgetintouch h1 {
+    font-size: 32px !important;
+    line-height: 63px;
+  }
+  .footer-4 p {
+    font-family: "ITC Avant Garde Gothic Std";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: -0.03em;
+    color: #ffffff;
+  }
 }
